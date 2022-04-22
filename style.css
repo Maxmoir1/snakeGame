@@ -1,0 +1,13 @@
+
+p{
+    background-color: yellow;
+    font-size: 15px;
+    width: 9vmin;
+}
+#p2 {
+    background-color:azure;
+    display: flex;
+    flex-wrap: wrap;
+    width: 9vmin;
+}
+

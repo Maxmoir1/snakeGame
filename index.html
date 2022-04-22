@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" defer type="module"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: black;
+      }
+      #game-board {
+        background-color: #ccc;
+        width: 100vmin;
+        height: 100vmin;
+        display: grid;
+        grid-template-rows: repeat(21, 1fr);
+        grid-template-columns: repeat(21, 1fr);
+      }
+
+      .snake {
+        background-color: red;
+        border: 0.25px solid black;
+      }
+      .food {
+        background-color: yellow;
+        border: 0.25px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="p2">SCORE:</p>
+    <div id="game-board"></div>
+      <p>Press any Arrow Key to Start Game</p>
+    </div>
+  </body>
+</html>
